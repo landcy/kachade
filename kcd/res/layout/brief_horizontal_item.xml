@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/page_margin_bottom"
+    android:paddingLeft="@dimen/page_margin_left"
+    android:paddingRight="@dimen/page_margin_right"
+    android:paddingTop="@dimen/page_margin_top" >
+
+    <com.kachade.view.CircleImageView
+        android:id="@+id/left_iv"
+        android:layout_width="@dimen/brief_hor_icon_size"
+        android:layout_height="@dimen/brief_hor_icon_size"
+        android:layout_centerVertical="true"
+        android:src="@drawable/search" />
+
+    <TextView
+        android:id="@+id/left_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/left_iv"
+        android:text="@string/discovery"
+        android:textColor="@color/black"
+        android:textSize="@dimen/brief_hor_text_size" />
+
+    <com.kachade.view.CircleImageView
+        android:id="@+id/mid_iv"
+        android:layout_width="@dimen/brief_hor_icon_size"
+        android:layout_height="@dimen/brief_hor_icon_size"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/search" />
+
+    <TextView
+        android:id="@+id/mid_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:text="@string/discovery"
+        android:textColor="@color/black"
+        android:textSize="@dimen/brief_hor_text_size" />
+
+    <ImageView
+        android:id="@+id/right_iv"
+        android:layout_width="@dimen/title_icon_size"
+        android:layout_height="@dimen/title_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/btn_right" >
+    </ImageView>
+
+</RelativeLayout>

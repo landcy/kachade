@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/btn_group"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/btn_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/btn_kcd"
+            style="@style/Home_RadioButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/home_kcd_bg"
+            android:gravity="center"
+            android:text="@string/kcd" />
+
+        <RadioButton
+            android:id="@+id/btn_category"
+            style="@style/Home_RadioButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home_category_bg"
+            android:gravity="center"
+            android:text="@string/category" />
+
+        <RadioButton
+            android:id="@+id/btn_discovery"
+            style="@style/Home_RadioButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home_discovery_bg"
+            android:gravity="center"
+            android:text="@string/discovery" />
+
+        <RadioButton
+            android:id="@+id/btn_cart"
+            style="@style/Home_RadioButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home_cart_bg"
+            android:gravity="center"
+            android:text="@string/shopping_cart" />
+
+        <RadioButton
+            android:id="@+id/btn_my_kcd"
+            style="@style/Home_RadioButton"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home_my_kcd_bg"
+            android:gravity="center"
+            android:text="@string/my_kcd" />
+    </RadioGroup>
+
+    <com.kachade.popview.SelectImage
+        android:id="@+id/select_image_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <com.kachade.popview.ChatListView
+        android:id="@+id/chat_list_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+    <com.kachade.popview.ShareView
+        android:id="@+id/share_view_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

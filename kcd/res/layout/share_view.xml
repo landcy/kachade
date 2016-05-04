@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/page_margin_top"
+    tools:context=".chat_list_view" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/page_margin_bottom"
+        android:paddingTop="@dimen/page_margin_top" >
+
+        <LinearLayout
+            android:id="@+id/wechat_lay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/icon_mid"
+                android:layout_height="@dimen/icon_mid"
+                android:src="@drawable/wechat" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:text="@string/wechat"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/font_big" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/friends_lay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/icon_mid"
+                android:layout_height="@dimen/icon_mid"
+                android:src="@drawable/share_friends" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:text="@string/share_friends"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/font_big" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/message_lay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/icon_mid"
+                android:layout_height="@dimen/icon_mid"
+                android:src="@drawable/message" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:text="@string/message"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/font_big" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/copy_lay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/icon_mid"
+                android:layout_height="@dimen/icon_mid"
+                android:src="@drawable/copy" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:text="@string/copy"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/font_big" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/share_lay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="@dimen/icon_mid"
+                android:layout_height="@dimen/icon_mid"
+                android:src="@drawable/share" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/item_margin_top"
+                android:text="@string/share_currency"
+                android:textColor="@color/font_black"
+                android:textSize="@dimen/font_big" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_width"
+        android:background="@color/line_color"
+        android:paddingTop="@dimen/page_margin_top" />
+
+    <TextView
+        android:id="@+id/btn_cancel"
+        style="@style/chat_text_size"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:paddingBottom="@dimen/page_margin_bottom"
+        android:paddingTop="@dimen/page_margin_top"
+        android:text="@string/cancel"
+        android:textColor="@color/font_blue" />
+
+</LinearLayout>

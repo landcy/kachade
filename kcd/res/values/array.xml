@@ -1,0 +1,10 @@
+<resources>
+
+    <string-array name="season">
+        <item>春天</item>
+        <item>夏天</item>
+        <item>秋天</item>
+        <item>冬天</item>
+    </string-array>
+
+</resources>

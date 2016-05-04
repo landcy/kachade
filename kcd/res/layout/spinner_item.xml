@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/search_box_padding_bottom"
+    android:paddingLeft="@dimen/search_box_padding_left"
+    android:paddingRight="@dimen/search_box_padding_right"
+    android:paddingTop="@dimen/search_box_padding_top" >
+
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="@dimen/item_margin_right"
+        android:hint="@string/search_hint"
+        android:textSize="@dimen/reset_password_text_size" >
+
+
+    </TextView>
+
+</RelativeLayout>

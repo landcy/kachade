@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gray">#ecedf1</color>
+    <color name="transparent">#00000000</color>
+    <color name="yellow">#ffbb50</color>
+    <color name="orange">#f86735</color>
+    <color name="red">#f64141</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#262a2d</color>
+    <color name="blue">#12b7f5</color>
+    <color name="half_transparent">#80000000</color>
+    <color name="font_lightgray">#808080</color>
+    <color name="font_gray">#666666</color>
+    <color name="font_red">#f64141</color>
+    <color name="font_black">#262a2d</color>
+    <color name="font_white">#ffffff</color>
+    <color name="font_blue">#12b7f5</color>
+    <color name="deep_gray">#e0e0e0</color>
+    <color name="mid_gray">#d3d4d7</color>
+    <color name="font_lightgray2">#b8b8b8</color>
+    <color name="line_color">#D3D4D7</color>
+    <color name="bg_lightgray">#f6f6f6</color>
+    <color name="background">@color/bg_lightgray</color>
+    <color name="spinner_text">@color/font_lightgray</color>
+
+</resources>

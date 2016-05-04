@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/division_height"
+    tools:context=".MainActivity.discovery.item" >
+
+    <include layout="@layout/discovery_account_info_view" />
+
+    <View
+        style="@style/Line"
+        android:layout_width="fill_parent" />
+
+    <include layout="@layout/discovery_product_image_view" />
+
+    <View
+        style="@style/Line"
+        android:layout_width="fill_parent" />
+
+    <include layout="@layout/discovery_product_info_view" />
+
+</LinearLayout>

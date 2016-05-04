@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/page_margin_bottom"
+    android:paddingLeft="@dimen/page_margin_left"
+    android:paddingRight="@dimen/page_margin_right"
+    android:paddingTop="@dimen/page_margin_top" >
+
+    <ImageView
+        android:id="@+id/back_iv"
+        android:layout_width="@dimen/title_icon_size"
+        android:layout_height="@dimen/title_icon_size"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/btn_left" >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/discovery"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_text_size" />
+
+    <ImageView
+        android:id="@+id/search_iv"
+        android:layout_width="@dimen/title_icon_size"
+        android:layout_height="@dimen/title_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/search" >
+    </ImageView>
+
+</RelativeLayout>

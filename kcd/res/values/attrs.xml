@@ -1,0 +1,30 @@
+<resources>
+
+    <declare-styleable name="Page_Title_View">
+        <attr name="MidText" format="string" />
+        <attr name="LeftVis" format="boolean" />
+        <attr name="RightVis" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="Brief_horizontal_Item_View">
+        <attr name="BH_MidText" format="string" />
+        <attr name="BH_LeftText" format="string" />
+        <attr name="BH_MidTextVis" format="boolean" />
+        <attr name="BH_LeftIconVis" format="boolean" />
+        <attr name="BH_MidIconVis" format="boolean" />
+        <attr name="BH_RightIconVis" format="boolean" />
+        <attr name="BH_MidTextColor" format="color" />
+        <attr name="BH_MidIconSrc" format="reference" />
+        <attr name="BH_LeftIconSrc" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="CIV_Border_Width" format="dimension" />
+        <attr name="CIV_Border_Color" format="color" />
+    </declare-styleable>
+    <declare-styleable name="My_Kcd_Item_View">
+        <attr name="MK_LeftText" format="string" />
+        <attr name="MK_RightText" format="string" />
+        <attr name="MK_RightTextColor" format="color" />
+        <attr name="MK_RightTextVis" format="boolean" />
+    </declare-styleable>
+
+</resources>

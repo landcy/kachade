@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity.category" >
+
+    <include layout="@layout/search_view" />
+
+    <com.kachade.view.HorizontalListView
+        android:id="@+id/horizon_listview"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" >
+    </com.kachade.view.HorizontalListView>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:columnWidth="@dimen/image_thumbnail_size"
+        android:gravity="center"
+        android:numColumns="2"
+        android:stretchMode="columnWidth" >
+    </GridView>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/page_margin_bottom"
+    android:paddingLeft="@dimen/page_margin_left"
+    android:paddingRight="@dimen/page_margin_right"
+    android:paddingTop="@dimen/page_margin_top"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/account_iv"
+        android:layout_width="@dimen/discovery_account_icon"
+        android:layout_height="@dimen/discovery_account_icon"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/item_margin_left"
+        android:layout_toRightOf="@+id/account_iv" >
+
+        <TextView
+            android:id="@+id/account_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/account_name"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/font_big" />
+
+        <TextView
+            android:id="@+id/feature_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/item_margin_left"
+            android:layout_toRightOf="@+id/account_tv"
+            android:background="@drawable/button_tiny_yellow_bg"
+            android:text="@string/original_brocast"
+            android:textColor="@color/font_white"
+            android:textSize="@dimen/font_tiny" >
+        </TextView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/item_margin_left"
+        android:layout_toRightOf="@+id/account_iv"
+        android:text="@string/time"
+        android:textColor="@color/font_lightgray"
+        android:textSize="@dimen/font_tiny" />
+
+</RelativeLayout>

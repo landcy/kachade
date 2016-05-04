@@ -1,0 +1,84 @@
+<resources>
+
+    <dimen name="image_thumbnail_size">100dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 18tiny 20small 22mid 24big 28large (30)huge -->
+    <dimen name="font_tiny">12sp</dimen>
+    <dimen name="font_small">13sp</dimen>
+    <dimen name="font_mid">14sp</dimen>
+    <dimen name="font_big">16sp</dimen>
+    <dimen name="font_lar">18sp</dimen>
+    <dimen name="font_huge">20sp</dimen>
+
+    <!-- Icon size -->
+    <dimen name="icon_tiny">20dp</dimen>
+    <dimen name="icon_small">30dp</dimen>
+    <dimen name="icon_mid">40dp</dimen>
+    <dimen name="icon_big">55dp</dimen>
+    <dimen name="icon_lar">113dp</dimen>
+
+    <!-- chat list icon -->
+    <dimen name="chat_list_icon_tiny">@dimen/icon_tiny</dimen>
+    <!-- contract icon -->
+
+
+    <!-- discovery page -->
+    <dimen name="discovery_account_icon">@dimen/icon_small</dimen>
+
+    <!-- parting line -->
+    <dimen name="line_height">1px</dimen>
+    <dimen name="line_width">1px</dimen>
+    <dimen name="division_height">6dp</dimen>
+    <dimen name="half_division_height">3dp</dimen>
+
+    <!-- search box -->
+    <dimen name="search_box_text_size">@dimen/font_lar</dimen>
+    <dimen name="search_history_text_size">@dimen/font_lar</dimen>
+    <dimen name="search_history_clean_text_size">@dimen/font_lar</dimen>
+    <dimen name="search_box_padding_top">7dp</dimen>
+    <dimen name="search_box_padding_left">10dp</dimen>
+    <dimen name="search_box_padding_bottom">7dp</dimen>
+    <dimen name="search_box_padding_right">10dp</dimen>
+    <!-- tab -->
+    <dimen name="tab_icon">@dimen/icon_small</dimen>
+    <dimen name="tab_text">@dimen/font_tiny</dimen>
+
+    <!-- page margin -->
+    <dimen name="page_margin_left">10dp</dimen>
+    <dimen name="page_margin_right">10dp</dimen>
+    <dimen name="page_margin_top">7dp</dimen>
+    <dimen name="page_margin_bottom">7dp</dimen>
+
+    <!-- item margin -->
+    <dimen name="item_margin_left">5dp</dimen>
+    <dimen name="item_margin_right">5dp</dimen>
+    <dimen name="item_margin_top">5dp</dimen>
+    <dimen name="item_margin_bottom">5dp</dimen>
+
+    <!-- Title -->
+    <dimen name="title_text_size">@dimen/font_huge</dimen>
+    <dimen name="title_icon_size">@dimen/icon_small</dimen>
+    <!-- brief honrizontal item -->
+    <dimen name="brief_hor_text_size">@dimen/font_lar</dimen>
+    <dimen name="brief_hor_icon_size">@dimen/icon_small</dimen>
+    <!-- who buy  item -->
+    <dimen name="who_buy_item_text_size">@dimen/font_lar</dimen>
+    <dimen name="who_buy_item_tiny_text_size">@dimen/font_mid</dimen>
+
+    <!-- cashier -->
+    <dimen name="cashier_text_size">@dimen/font_lar</dimen>
+    <dimen name="cashier_tiny_text_size">@dimen/font_mid</dimen>
+
+    <!-- reset password -->
+    <dimen name="reset_password_text_size">@dimen/font_lar</dimen>
+    <!-- login -->
+    <dimen name="login_text_size">@dimen/font_lar</dimen>
+    <dimen name="login_tiny_text_size">@dimen/font_big</dimen>
+    <!-- register -->
+    <dimen name="register_text_size">@dimen/font_lar</dimen>
+
+</resources>

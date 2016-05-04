@@ -1,0 +1,80 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="kcd_fragment_text_size">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="Home_RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/page_margin_top</item>
+        <item name="android:textColor">@drawable/home_bottom_btn_color</item>
+        <item name="android:textSize">@dimen/tab_text</item>
+    </style>
+
+    <style name="Line">
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+
+    <style name="Search_Histroy_Item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_black</item>
+        <item name="android:textSize">@dimen/search_history_text_size</item>
+        <item name="android:background">@drawable/text_bound_bg</item>
+    </style>
+
+    <style name="chat_left_text_Item">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_black</item>
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="chat_text_size">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="select_image_text_size">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="discovery_item_text_size">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="category_item_text_size">
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="My_Recevier_RadioButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/font_gray</item>
+        <item name="android:textSize">@dimen/font_big</item>
+    </style>
+
+    <style name="popWindow_animation">
+        <item name="android:windowEnterAnimation">@anim/popupwindow_enter</item>
+        <item name="android:windowExitAnimation">@anim/popupwindow_exit</item>
+    </style>
+
+</resources>

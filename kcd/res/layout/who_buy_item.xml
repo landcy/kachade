@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/page_margin_bottom"
+    android:paddingLeft="@dimen/page_margin_left"
+    android:paddingRight="@dimen/page_margin_right"
+    android:paddingTop="@dimen/page_margin_top" >
+
+    <com.kachade.view.CircleImageView
+        android:id="@+id/left_iv"
+        android:layout_width="@dimen/brief_hor_icon_size"
+        android:layout_height="@dimen/brief_hor_icon_size"
+        android:layout_centerVertical="true"
+        android:src="@drawable/albums" />
+
+    <TextView
+        android:id="@+id/left_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/item_margin_left"
+        android:layout_toRightOf="@+id/left_iv"
+        android:text="@string/account_name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/who_buy_item_text_size" />
+
+    <TextView
+        android:id="@+id/mid1_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="120dp"
+        android:text="@string/kcd_currency"
+        android:textColor="@color/black"
+        android:textSize="@dimen/who_buy_item_tiny_text_size" />
+
+    <TextView
+        android:id="@+id/mid2_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/mid1_tv"
+        android:text="+1"
+        android:textColor="@color/red"
+        android:textSize="@dimen/who_buy_item_tiny_text_size" />
+
+    <TextView
+        android:id="@+id/right_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="3天前"
+        android:textColor="@color/font_gray"
+        android:textSize="@dimen/who_buy_item_tiny_text_size" />
+
+</RelativeLayout>

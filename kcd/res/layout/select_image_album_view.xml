@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="100dp"
+    android:layout_height="150dp"
+    android:clickable="true"
+    android:gravity="center"
+    android:padding="2dp" >
+
+    <ImageView
+        android:id="@+id/image_iv"
+        android:layout_width="96dp"
+        android:layout_height="146dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/select_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="3dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_un_chose" >
+    </ImageView>
+
+</RelativeLayout>
